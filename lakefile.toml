@@ -1,0 +1,10 @@
+name = "MontyVerification"
+version = "0.1.0"
+defaultTargets = ["montyverification"]
+
+[[lean_lib]]
+name = "MontyVerification"
+
+[[lean_exe]]
+name = "montyverification"
+root = "Main"
